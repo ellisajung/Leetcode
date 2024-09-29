@@ -38,7 +38,7 @@ var mergeTwoLists = function(list1, list2) {
         }
         curr = curr.next
     }
-    console.log(curr)
+    // console.log(curr)
     if (list1) {
         curr.next = list1
     } else {
