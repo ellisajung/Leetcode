@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
 | [2442-number-of-arithmetic-triplets](https://github.com/ellisajung/leetcode/tree/master/2442-number-of-arithmetic-triplets) |
 ## Two Pointers
 |  |
@@ -25,4 +26,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2442-number-of-arithmetic-triplets](https://github.com/ellisajung/leetcode/tree/master/2442-number-of-arithmetic-triplets) |
+## String
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
+## Trie
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
+## Sorting
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
+## Bucket Sort
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
+## Counting
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/ellisajung/leetcode/tree/master/0692-top-k-frequent-words) |
 <!---LeetCode Topics End-->
