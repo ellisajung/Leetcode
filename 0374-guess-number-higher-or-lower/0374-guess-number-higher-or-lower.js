@@ -16,13 +16,14 @@ var guessNumber = function(n) {
 
     while (left <= right) {
         let pick = Math.floor((left + right) / 2)
+        let res = guess(pick)
 
-        if (guess(pick) < 0) {
-            right = pick - 1
-        } else if (guess(pick) > 0) {
-            left = pick + 1
-        } else {
+        if (res === 0) {
             return pick
+        } else if (res < 0) {
+            right = pick - 1
+        } else {
+            left = pick + 1
         }
     }
 };
