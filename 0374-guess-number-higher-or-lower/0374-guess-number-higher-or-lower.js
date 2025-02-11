@@ -20,7 +20,7 @@ var guessNumber = function(n) {
 
         if (res === 0) {
             return pick
-        } else if (res < 0) {
+        } else if (res === -1) {
             right = pick - 1
         } else {
             left = pick + 1
