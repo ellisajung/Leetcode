@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ellisajung/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/ellisajung/leetcode/tree/master/0792-binary-search) |
 | [2442-number-of-arithmetic-triplets](https://github.com/ellisajung/leetcode/tree/master/2442-number-of-arithmetic-triplets) |
 ## Hash Table
@@ -54,5 +55,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ellisajung/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/ellisajung/leetcode/tree/master/0792-binary-search) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/ellisajung/leetcode/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
