@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ellisajung/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/ellisajung/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/ellisajung/leetcode/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/ellisajung/leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ellisajung/leetcode/tree/master/0907-koko-eating-bananas) |
 | [2442-number-of-arithmetic-triplets](https://github.com/ellisajung/leetcode/tree/master/2442-number-of-arithmetic-triplets) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ellisajung/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/ellisajung/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/ellisajung/leetcode/tree/master/0695-max-area-of-island) |
 ## Interactive
 |  |
 | ------- |
@@ -76,12 +78,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ellisajung/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/ellisajung/leetcode/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ellisajung/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/ellisajung/leetcode/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ellisajung/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/ellisajung/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
