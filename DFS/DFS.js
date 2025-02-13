@@ -1,3 +1,11 @@
+/* 
+DFS 문제 유형
+
+// 1. Recursive DFS & Matrix
+// 2. Iterative DFS & Adjacent List
+
+*/
+
 /* Recursive DFS & Matrix */
 
 // Basic Implementation
