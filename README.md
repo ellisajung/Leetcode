@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ellisajung/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/ellisajung/leetcode/tree/master/0078-subsets) |
 | [0200-number-of-islands](https://github.com/ellisajung/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/ellisajung/leetcode/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/ellisajung/leetcode/tree/master/0792-binary-search) |
@@ -99,4 +100,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/ellisajung/leetcode/tree/master/0112-path-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ellisajung/leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ellisajung/leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
