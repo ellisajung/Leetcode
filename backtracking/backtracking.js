@@ -22,9 +22,10 @@ Basic Implementations
 1. 루트 노드에서 리브 노드까지의 경로가 있는지. 경로에는 0이 있으면 안됨.
     -> 첫 true가 반환되면 더 이상 탐색할 필요 없음
 2. 루트 노드에서 리브 노드까지의 경로가 있는지, 있으면 경로를 반환.
+3. 부분 집합 구하기
 */
 
-// implementation 1
+// 유형 1
 class TreeNode {
   constructor(val) {
     this.val = val;
@@ -66,7 +67,7 @@ const binaryTree = [1, 2, 0, 0, 3, null, null];
 //  / \
 // 0  3
 
-// implementation 2
+// 유형 2
 function leafPath(root, path) {
   // path(스택)를 파람으로 전달
   if (root == null || root.val == 0) {
@@ -87,3 +88,42 @@ function leafPath(root, path) {
   path.pop();
   return false;
 }
+
+/* 유형 3 */
+function subsets(nums) {
+  const res = [];
+  const subset = [];
+
+  function dfs(i) {
+    if (i >= nums.length) {
+      res.push([...subset]); // 현재 subset을 복사해서 결과에 추가
+      return;
+    }
+
+    // 1️⃣ 현재 숫자를 포함하는 경우
+    subset.push(nums[i]);
+    dfs(i + 1); // 다음 숫자로 이동
+
+    // 2️⃣ 현재 숫자를 포함하지 않는 경우
+    subset.pop(); // 이전 push를 되돌림
+    dfs(i + 1);
+  }
+
+  dfs(0);
+
+  return res;
+}
+
+const nums = [1, 2, 3];
+
+/* 
+Decision Tree
+                       []
+0                /                 \
+             [1]                    []
+1           /     \             /        \
+        [1,2]       [1]        [2]       []     
+2      /    \      /    \     /   \     /   \ 
+   [1,2,3] [1,2] [1,3] [1] [2,3] [2]  [3]   []  
+
+*/
