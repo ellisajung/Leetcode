@@ -1,5 +1,5 @@
 /* 
-Recursive
+Recursion
 
 Basics
 
@@ -16,13 +16,13 @@ Basics
 
 - It's usually possible to convert into an iterative one, and vice versa.
 
-Implementation
-    1. Factorial
-
+문제 예시
+    1. Factorial 팩토리얼 (One-branch)
+    2. Fibonacci Sequence 피보나치 수열 (Two-branch)
 
 */
 
-/* Implementation 1 - Recursion */
+/* 예시 1 - Recursion */
 // TC: O(n)
 // SC: O(n) - call stack에 쌓인 재귀 호출
 function factorial(n) {
@@ -35,7 +35,7 @@ function factorial(n) {
 }
 console.log(factorial(5));
 
-/* Implementation 1 - Iterative */
+/* 예시 1 - Iterative */
 // TC: O(n)
 // SC: O(1) - more efficient than recursive solution in this case
 function factorial(num) {
@@ -48,3 +48,27 @@ function factorial(num) {
   }
 }
 console.log(factorial(5));
+
+/* 예시 2 */
+// TC: O(2^n)
+function fibonacci(n) {
+  // Base case: n = 0 or 1
+  if (n <= 1) {
+    return n; // f(0) = 0, f(1) = 1
+  }
+  // Recursive case: f(n) = f(n - 1) + f(n - 2)
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+/* 
+Decision tree:
+
+                  f(5)
+             /              \
+          f(4)              f(3)
+        /     \            /    \
+      f(3)     f(2)      f(2)    f(1)
+      /  \     /   \     /   \
+    f(2) f(1) f(1) f(0) f(1) f(0)
+   /  \
+f(1) f(0)
+*/
