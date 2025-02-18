@@ -29,5 +29,6 @@ var isValid = function(s) {
 
     // console.log("map: ", brackets.get('('))
     // console.log("stack: ", stack)
-    return stack.length ? false : true
+    // return stack.length ? false : true
+    return stack.length === 0
 };
