@@ -21,6 +21,8 @@ var isValid = function(s) {
             if (string===brackets.get(stack[stack.length-2])) {
                 stack.pop()
                 stack.pop()
+            } else {
+                return false
             }
         }
     }
