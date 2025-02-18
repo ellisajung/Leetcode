@@ -10,15 +10,15 @@
 
 
 var isValid = function(s) {
-    const brackets = new Map([['(', ')'], ['{', '}'], ['[', ']']])
+    const brackets = {'(' : ')', '{' : '}', '[' : ']'}
     let stack = []
 
     for (let string of s){
-        if (brackets.has(string)) {
+        if (string in brackets) {
             stack.push(string)
         } else {
             stack.push(string)
-            if (string===brackets.get(stack[stack.length-2])) {
+            if (string===brackets[stack[stack.length-2]]) {
                 stack.pop()
                 stack.pop()
             } else {
