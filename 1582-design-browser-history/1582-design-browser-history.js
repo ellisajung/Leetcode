@@ -1,26 +1,19 @@
-/* Doubly Linked List */
+/* Dynamic Array */
 // TC
     // Initialization: O(1)
     // visit(): O(1)
-    // back() & forward(): O(min(n, steps))
+    // back() & forward(): O(1)
 // SC: O(m * n)
     // n: number of visited urls
     // m: average lenght of each url
-
-class ListNode {
-    constructor(val) {
-        this.val = val
-        this.prev = null
-        this.next = null
-    }
-}
-
 class BrowserHistory {
     /**
     * @param {string} homepage
     */
     constructor(homepage) {
-        this.cur = new ListNode(homepage)
+        this.history = [homepage]
+        this.cur = 0
+        this.len = 1
     }
 
     /** 
@@ -28,11 +21,14 @@ class BrowserHistory {
     * @return {void}
     */
     visit(url) {
-        const node = new ListNode(url)
- 
-        this.cur.next = node
-        node.prev = this.cur
-        this.cur = node
+        this.cur++
+        if (this.cur === this.history.length) {
+            this.history.push(url)
+            this.len++
+        } else {
+            this.history[this.cur] = url
+            this.len = this.cur + 1
+        }
     };
 
     /** 
@@ -40,11 +36,8 @@ class BrowserHistory {
     * @return {string}
     */
     back(steps) {
-        while(this.cur.prev !== null && steps > 0) {
-            this.cur = this.cur.prev
-            steps--
-        }
-        return this.cur.val
+        this.cur = Math.max(this.cur - steps, 0)
+        return this.history[this.cur]
     };
 
     /** 
@@ -52,11 +45,8 @@ class BrowserHistory {
     * @return {string}
     */
     forward(steps) {
-        while(this.cur.next !== null && steps > 0) {
-            this.cur = this.cur.next
-            steps--
-        }
-        return this.cur.val
+        this.cur = Math.min(this.len - 1, this.cur + steps)
+        return this.history[this.cur]
     };
 
     /** 
