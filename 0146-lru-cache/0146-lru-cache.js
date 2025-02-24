@@ -15,15 +15,15 @@ class LRUCache {
     * @return {number}
     */
     get(key) {
-        if (this.cache.has(key)) {
+        if (!this.cache.has(key)) {
+            return -1
+        }
             const val = this.cache.get(key)
             this.cache.delete(key)
             this.cache.set(key, val)
 
             return this.cache.get(key)
-        }
         
-        return -1
     };
 
     /** 
