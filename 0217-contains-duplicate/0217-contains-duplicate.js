@@ -7,9 +7,13 @@ var containsDuplicate = function(nums) {
     for (let num of nums) {
         if (set.has(num)) {
             return true
-        } else {
-            set.add(num)
-        }
+        } 
+        // else {
+        //     set.add(num)
+        // }
+        // 쓸데 없는 분기는 제거하는 게 좋음
+        set.add(num)
+
     }
     return false
 };
