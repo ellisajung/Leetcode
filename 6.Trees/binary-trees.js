@@ -1,10 +1,10 @@
 /* 
 Binary Trees
-    Connected, undirected graph with no cycles.
+    Connected, undirected graph with NO cycles.
     Thus, a leaf node is always guaranteed to exist.
 
 Basics
-    - Root node, Child nodes(left & right node), Sibling nodes, Leaf nodes
+    - Root node, Parent Node, Child nodes(left & right node), Sibling nodes, Leaf nodes
     - Pointers: left child pointer, right child pointer
     - Descendant, Ancestors
     - Height of certain node: height from that node to the "leaf" node

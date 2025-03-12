@@ -13,9 +13,8 @@ Requirements
 
 Why BST? (BS vs BST)
     - Inserting & Deleting
-        - BS (sorted array): Time complexity of O(n)
-        - BST: Time complexity of O(logn)
-
+        - BS (sorted array): O(n)
+        - BST: O(logn)
 
 */
 
