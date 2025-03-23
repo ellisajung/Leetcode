@@ -1,5 +1,5 @@
 /* 
-BST - Traversal (DFS)
+BST Traversal - DFS
 
 - It is commonly used to traverse trees and graphs. In this lesson we will focus on trees.
 - Depth first search is best implemented using recursion, although it is possible to implement it iteratively using a stack.
@@ -8,7 +8,18 @@ BST - Traversal (DFS)
 - "visit" could mean anything from printing the node to performing some operation on it.
 
 There are three ways to traverse a tree using depth-first search:
-    1. Inorder (중위):
+    1. Preorder (전위):
+        - visit the parent node first, 
+        - then visit the left subtree 
+        - and finally visit the right subtree.
+        - 예) [4,3,2,6,5,7]
+                 (1) 4
+                   /   \
+              (2) 3   6 (4)
+                 /   /     \
+            (3) 2   5 (5)   7 (6)
+
+    2. Inorder (중위):
         - recurively visit all the nodes in the left subtree, 
         - then visit the parent node and 
         - finally visit all the nodes in the right subtree
@@ -19,16 +30,7 @@ There are three ways to traverse a tree using depth-first search:
                  /   /     \
             (1) 2   5 (4)   7 (6)
 
-    2. Preorder (전위):
-        - visit the parent node first, 
-        - then visit the left subtree 
-        - and finally visit the right subtree.
-        - 예) [4,3,2,6,5,7]
-                 (1) 4
-                   /   \
-              (2) 3   6 (4)
-                 /   /     \
-            (3) 2   5 (5)   7 (6)
+   
 
     3. Postorder (후위):
         - visit the left subtree, 
@@ -44,6 +46,10 @@ There are three ways to traverse a tree using depth-first search:
 Complexity
     - TC: O(n) -> Another interesting point is that we could actually build a sorted array from the inorder traversal of a binary search tree.
     - SC: O(h) -> O(log n) for a balanced binary tree or O(n) for a skewed tree
+
+
+Stack Implementation
+https://www.youtube.com/watch?v=fAAZixBzIAI&t=1637s
 
 */
 
