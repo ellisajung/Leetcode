@@ -207,7 +207,7 @@ Updated linked list after deletion of `ListNode2`. Notice that now `ListNode1`
 
 |Operation|Big-O Time Complexity|Note|
 |---|---|---|
-|Access|O(n)O(n)||
-|Search|O(n)O(n)||
-|Insertion|O(1)O(1)*|Assuming you already have a reference to the node at the desired position|
-|Deletion|O(1)O(1)*|Assuming you already have a reference to the node at the desired position|
+|Access|O(n)||
+|Search|O(n)||
+|Insertion|O(1)*|Assuming you already have a reference to the node at the desired position|
+|Deletion|O(1)*|Assuming you already have a reference to the node at the desired position|
